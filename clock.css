@@ -1,0 +1,62 @@
+html{
+    background-image: linear-gradient(to bottom right,yellow,pink,white);
+    background-repeat: no-repeat;
+    
+    min-height: 100%;
+}
+body{
+    text-align: center;
+}
+h1{
+    color:black;
+    font-family: 'Lilita One', cursive;
+    font-size: 5rem;
+    text-shadow: white;
+
+
+}
+
+h2{
+    color:black;
+    font-family: 'Lilita One', cursive;
+    font-size: 2rem;
+
+}
+
+
+.container
+{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    border-width: 20px;
+    border-style: solid;
+    border-color:black;
+    
+    margin: 80px auto;
+    position: relative;
+
+}
+.hand
+{
+    width: 50%;
+      height: 6px;
+      background: black;
+      position: absolute;
+      top: 50%;
+      transform-origin: 100%;
+      transform: rotate(90deg);
+      transition: all 0.05s;
+      transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+.sec
+{
+    background: white;
+    height: 2px;
+}
+.min
+{
+    background: red;
+    height: 4px;
+}
+
